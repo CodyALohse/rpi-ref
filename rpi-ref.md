@@ -185,14 +185,15 @@ Debugging from Visual Studio 2017
 ### Install Docker:
 
 ```bash
-sudo apt-get update
-sudo apt-get upgrade
 curl -sSL https://get.docker.com | sh
 ```
 
-**Note** : You may need to download the convenince script manually and modify the script to pull the Raspian Sretch version.
+#### Setup auto start on restart
 
-If errors occur. Try rebooting.
+```bash
+sudo systemctl enable docker
+```
+
 
 # Misc
 
