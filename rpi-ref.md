@@ -188,6 +188,15 @@ Debugging from Visual Studio 2017
 curl -sSL https://get.docker.com | sh
 ```
 
+### Install Docker Compose
+
+```bash
+sudo apt-get install libffi-dev libssl-dev
+sudo apt-get install -y python python-pip
+sudo apt-get remove python-configparser
+sudo pip install docker-compose
+```
+
 #### Setup auto start on restart
 
 ```bash
