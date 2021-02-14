@@ -28,7 +28,7 @@
     ```
 
 1. Change default password
-1. Change Network Options -> hostname: rpi-0 -> schema rpi-{unit count}
+1. Change Network Options -> hostname: desired_schema
 1. Update localisation settings:
     * Localisation Options -> Change locale: en_US.UTF-8 UTF-8
     * Next screen choose en_US.UTF-8
