@@ -2,7 +2,7 @@
 
 1. Flash latest Raspbian Lite to SD card using Etcher app.
 1. Enable SSH by creating a file called `ssh` on the SD card.
-1. Enable Wifi auto connect by creating a new file called `wpa_supplicant.conf` on the SD card. Add the following to the wpa_supplicant.conf:
+1. Enable Wifi auto connect by creating a new file called `wpa_supplicant.conf` on the SD card. Add the following to the wpa_supplicant.conf. Consider encrypting the password (https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md):
 
     ```bash
     ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
